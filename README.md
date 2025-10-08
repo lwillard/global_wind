@@ -1,4 +1,4 @@
-# Globe Wind — 3D GDAS ARL Wind Viewer (Tutorial Edition)
+# Global Wind — 3D GDAS ARL Wind Viewer
 
 This project displays global wind fields from **GDAS ARL** (`.w4`) files on a rotating 3D globe.
 
