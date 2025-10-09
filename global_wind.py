@@ -23,9 +23,6 @@ jump to the section you’re curious about:
   4) OpenGL globe widget (draw ocean sphere, land mask, coastlines, winds)
   5) MainWindow (Qt GUI and interactions)
   6) main() entry point
-
-This tutorial aims to be clear rather than short. Pure performance was not the
-goal; readable code was. Feel free to tune constants and sampling parameters.
 """
 
 # ----- Standard library imports ----------------------------------------------
@@ -847,7 +844,7 @@ class MainWindow(QMainWindow):
     """
     def __init__(self, path: str):
         super().__init__()
-        self.setWindowTitle("GDAS ARL Winds — Tutorial Globe")
+        self.setWindowTitle("GDAS ARL Global Winds")
         self.resize(1200, 900)
 
         # Central OpenGL view
